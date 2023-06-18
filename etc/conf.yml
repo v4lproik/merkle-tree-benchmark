@@ -1,0 +1,16 @@
+merkle-tree:
+  log:
+    verbosity-level: "debug"
+  hash: "sha256"
+  performance:
+    max-goroutine: 100000
+    reuse-buffer-allocation: true
+  sort: true
+  data:
+    - value1
+    - value2
+    - value3
+    - value4
+    - value5
+    - value6
+    - value6
